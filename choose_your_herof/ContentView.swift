@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  choose_your_herof
-//
-//  Created by Шелудков Илья on 12.12.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
