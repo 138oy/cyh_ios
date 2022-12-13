@@ -1,14 +1,33 @@
 import SwiftUI
+import SwiftUISnappingScrollView
 
 struct ContentView: View {
+    let heroesArray = HeroViewModel().getHeroesArray()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Color.init(UIColor(red: 0.17, green: 0.15, blue: 0.17, alpha: 1.00))
+            .ignoresSafeArea() // Ignore just for the color
+            .overlay(
+                
+                Grid {
+                    
+                    VStack {
+                        Image("marvel").resizable().scaledToFit().frame(width: 150, height: 50).padding(50)
+                        Text("Choose Your Hero!")
+                            .font(.title)
+                            .foregroundColor(.white)
+                            .padding(50)
+                    }
+                    
+                    SnappingScrollView(.horizontal) {
+                        LazyHStack {
+                            ForEach(heroesArray, id: \.name) { hero in
+                                HeroCard(hero: hero)
+                            }
+                            .scrollSnappingAnchor(.bounds)
+                        }
+                    }
+                }
+            )
     }
 }
 
