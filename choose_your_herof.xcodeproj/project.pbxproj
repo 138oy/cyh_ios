@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E64DFB0D2947101B00EF82B0 /* choose_your_herofApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB0C2947101B00EF82B0 /* choose_your_herofApp.swift */; };
+		E64DFB0D2947101B00EF82B0 /* ChooseYourHerofApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB0C2947101B00EF82B0 /* ChooseYourHerofApp.swift */; };
 		E64DFB0F2947101B00EF82B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB0E2947101B00EF82B0 /* ContentView.swift */; };
 		E64DFB112947101C00EF82B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64DFB102947101C00EF82B0 /* Assets.xcassets */; };
 		E64DFB142947101C00EF82B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64DFB132947101C00EF82B0 /* Preview Assets.xcassets */; };
-		E64DFB1E2947101C00EF82B0 /* choose_your_herofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB1D2947101C00EF82B0 /* choose_your_herofTests.swift */; };
-		E64DFB282947101C00EF82B0 /* choose_your_herofUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB272947101C00EF82B0 /* choose_your_herofUITests.swift */; };
-		E64DFB2A2947101C00EF82B0 /* choose_your_herofUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB292947101C00EF82B0 /* choose_your_herofUITestsLaunchTests.swift */; };
+		E64DFB1E2947101C00EF82B0 /* ChooseYourHerofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB1D2947101C00EF82B0 /* ChooseYourHerofTests.swift */; };
+		E64DFB282947101C00EF82B0 /* ChooseYourHerofUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB272947101C00EF82B0 /* ChooseYourHerofUITests.swift */; };
+		E64DFB2A2947101C00EF82B0 /* ChooseYourHerofUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB292947101C00EF82B0 /* ChooseYourHerofUITestsLaunchTests.swift */; };
+		E64DFB382948ADC100EF82B0 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB372948ADC100EF82B0 /* Hero.swift */; };
+		E64DFB3E2948B2C000EF82B0 /* HeroRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB3D2948B2C000EF82B0 /* HeroRepository.swift */; };
+		E64DFB422948B7F800EF82B0 /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB412948B7F800EF82B0 /* HeroViewModel.swift */; };
+		E64DFB452948E1CB00EF82B0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E64DFB442948E1CB00EF82B0 /* .swiftlint.yml */; };
+		E64DFB482948E6A800EF82B0 /* HeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DFB472948E6A800EF82B0 /* HeroCard.swift */; };
+		E64DFB4B2948F34700EF82B0 /* SwiftUISnappingScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = E64DFB4A2948F34700EF82B0 /* SwiftUISnappingScrollView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +41,20 @@
 
 /* Begin PBXFileReference section */
 		E64DFB092947101B00EF82B0 /* choose_your_herof.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = choose_your_herof.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E64DFB0C2947101B00EF82B0 /* choose_your_herofApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choose_your_herofApp.swift; sourceTree = "<group>"; };
+		E64DFB0C2947101B00EF82B0 /* ChooseYourHerofApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourHerofApp.swift; sourceTree = "<group>"; };
 		E64DFB0E2947101B00EF82B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E64DFB102947101C00EF82B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E64DFB132947101C00EF82B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E64DFB192947101C00EF82B0 /* choose_your_herofTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = choose_your_herofTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E64DFB1D2947101C00EF82B0 /* choose_your_herofTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choose_your_herofTests.swift; sourceTree = "<group>"; };
+		E64DFB1D2947101C00EF82B0 /* ChooseYourHerofTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourHerofTests.swift; sourceTree = "<group>"; };
 		E64DFB232947101C00EF82B0 /* choose_your_herofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = choose_your_herofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E64DFB272947101C00EF82B0 /* choose_your_herofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choose_your_herofUITests.swift; sourceTree = "<group>"; };
-		E64DFB292947101C00EF82B0 /* choose_your_herofUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choose_your_herofUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E64DFB272947101C00EF82B0 /* ChooseYourHerofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourHerofUITests.swift; sourceTree = "<group>"; };
+		E64DFB292947101C00EF82B0 /* ChooseYourHerofUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourHerofUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E64DFB372948ADC100EF82B0 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		E64DFB3D2948B2C000EF82B0 /* HeroRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRepository.swift; sourceTree = "<group>"; };
+		E64DFB412948B7F800EF82B0 /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		E64DFB442948E1CB00EF82B0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		E64DFB472948E6A800EF82B0 /* HeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64DFB4B2948F34700EF82B0 /* SwiftUISnappingScrollView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +86,8 @@
 		E64DFB002947101B00EF82B0 = {
 			isa = PBXGroup;
 			children = (
+				E64DFB462948E68C00EF82B0 /* components */,
+				E64DFB442948E1CB00EF82B0 /* .swiftlint.yml */,
 				E64DFB0B2947101B00EF82B0 /* choose_your_herof */,
 				E64DFB1C2947101C00EF82B0 /* choose_your_herofTests */,
 				E64DFB262947101C00EF82B0 /* choose_your_herofUITests */,
@@ -94,7 +108,10 @@
 		E64DFB0B2947101B00EF82B0 /* choose_your_herof */ = {
 			isa = PBXGroup;
 			children = (
-				E64DFB0C2947101B00EF82B0 /* choose_your_herofApp.swift */,
+				E64DFB402948B72300EF82B0 /* viewmodels */,
+				E64DFB3A2948B28800EF82B0 /* repositories */,
+				E64DFB362948ADA600EF82B0 /* models */,
+				E64DFB0C2947101B00EF82B0 /* ChooseYourHerofApp.swift */,
 				E64DFB0E2947101B00EF82B0 /* ContentView.swift */,
 				E64DFB102947101C00EF82B0 /* Assets.xcassets */,
 				E64DFB122947101C00EF82B0 /* Preview Content */,
@@ -113,7 +130,7 @@
 		E64DFB1C2947101C00EF82B0 /* choose_your_herofTests */ = {
 			isa = PBXGroup;
 			children = (
-				E64DFB1D2947101C00EF82B0 /* choose_your_herofTests.swift */,
+				E64DFB1D2947101C00EF82B0 /* ChooseYourHerofTests.swift */,
 			);
 			path = choose_your_herofTests;
 			sourceTree = "<group>";
@@ -121,10 +138,42 @@
 		E64DFB262947101C00EF82B0 /* choose_your_herofUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E64DFB272947101C00EF82B0 /* choose_your_herofUITests.swift */,
-				E64DFB292947101C00EF82B0 /* choose_your_herofUITestsLaunchTests.swift */,
+				E64DFB272947101C00EF82B0 /* ChooseYourHerofUITests.swift */,
+				E64DFB292947101C00EF82B0 /* ChooseYourHerofUITestsLaunchTests.swift */,
 			);
 			path = choose_your_herofUITests;
+			sourceTree = "<group>";
+		};
+		E64DFB362948ADA600EF82B0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E64DFB372948ADC100EF82B0 /* Hero.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E64DFB3A2948B28800EF82B0 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E64DFB3D2948B2C000EF82B0 /* HeroRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		E64DFB402948B72300EF82B0 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				E64DFB412948B7F800EF82B0 /* HeroViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		E64DFB462948E68C00EF82B0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				E64DFB472948E6A800EF82B0 /* HeroCard.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,12 +186,16 @@
 				E64DFB052947101B00EF82B0 /* Sources */,
 				E64DFB062947101B00EF82B0 /* Frameworks */,
 				E64DFB072947101B00EF82B0 /* Resources */,
+				E64DFB432948DF6800EF82B0 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = choose_your_herof;
+			packageProductDependencies = (
+				E64DFB4A2948F34700EF82B0 /* SwiftUISnappingScrollView */,
+			);
 			productName = choose_your_herof;
 			productReference = E64DFB092947101B00EF82B0 /* choose_your_herof.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +268,9 @@
 				Base,
 			);
 			mainGroup = E64DFB002947101B00EF82B0;
+			packageReferences = (
+				E64DFB492948F34700EF82B0 /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */,
+			);
 			productRefGroup = E64DFB0A2947101B00EF82B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64DFB452948E1CB00EF82B0 /* .swiftlint.yml in Resources */,
 				E64DFB142947101C00EF82B0 /* Preview Assets.xcassets in Resources */,
 				E64DFB112947101C00EF82B0 /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +309,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E64DFB432948DF6800EF82B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E64DFB052947101B00EF82B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E64DFB0F2947101B00EF82B0 /* ContentView.swift in Sources */,
-				E64DFB0D2947101B00EF82B0 /* choose_your_herofApp.swift in Sources */,
+				E64DFB3E2948B2C000EF82B0 /* HeroRepository.swift in Sources */,
+				E64DFB0D2947101B00EF82B0 /* ChooseYourHerofApp.swift in Sources */,
+				E64DFB382948ADC100EF82B0 /* Hero.swift in Sources */,
+				E64DFB422948B7F800EF82B0 /* HeroViewModel.swift in Sources */,
+				E64DFB482948E6A800EF82B0 /* HeroCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64DFB1E2947101C00EF82B0 /* choose_your_herofTests.swift in Sources */,
+				E64DFB1E2947101C00EF82B0 /* ChooseYourHerofTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64DFB282947101C00EF82B0 /* choose_your_herofUITests.swift in Sources */,
-				E64DFB2A2947101C00EF82B0 /* choose_your_herofUITestsLaunchTests.swift in Sources */,
+				E64DFB282947101C00EF82B0 /* ChooseYourHerofUITests.swift in Sources */,
+				E64DFB2A2947101C00EF82B0 /* ChooseYourHerofUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +664,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E64DFB492948F34700EF82B0 /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ciaranrobrien/SwiftUISnappingScrollView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E64DFB4A2948F34700EF82B0 /* SwiftUISnappingScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E64DFB492948F34700EF82B0 /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */;
+			productName = SwiftUISnappingScrollView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E64DFB012947101B00EF82B0 /* Project object */;
 }
